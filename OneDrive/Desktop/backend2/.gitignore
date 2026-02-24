@@ -1,0 +1,10 @@
+node_modules/
+.env
+dist/
+*.log
+uploads/
+.vscode/
+.gemini/
+*.gemini/
+brain/
+package-lock.json
