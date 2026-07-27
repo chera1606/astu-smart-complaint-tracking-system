@@ -5,7 +5,6 @@ import Category from './src/model/category.model.js';
 import generateId from './src/utils/idGenerator.js';
 import dotenv from 'dotenv';
 dotenv.config();
-
 const seedDB = async () => {
     try {
         console.log('Attempting to connect to MongoDB...', process.env.MONGO_DB);
